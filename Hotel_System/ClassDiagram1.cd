@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Hotel_System.Classes.Billing">
+    <Position X="2" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAgAAAAAAAACAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Billing.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hotel_System.Classes.Customer">
+    <Position X="7" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAADAAAAAAACAAAAAAAAAAQAAAARAAAKAAAAAIAAAAA=</HashCode>
+      <FileName>Classes\Customer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hotel_System.Classes.Manager">
+    <Position X="0.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IBEgAAAhAgCAAAIAEpAAAQCAAAIAQAAAAEQBAAAAAAA=</HashCode>
+      <FileName>Classes\Manager.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Reservation" />
+      <Property Name="Customer" />
+      <Property Name="Room" />
+      <Property Name="Service" />
+      <Property Name="Billing" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Hotel_System.Classes.Reservation">
+    <Position X="4.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAABAAAABAIAAAIIAAARBAAEAAAAAAAAAACAACA=</HashCode>
+      <FileName>Classes\Reservation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hotel_System.Classes.Room">
+    <Position X="10.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgIAAAACgABAAAAAAAEEAEAAAABIAAIAAAgA=</HashCode>
+      <FileName>Classes\Room.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hotel_System.Classes.Service">
+    <Position X="13.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IIAAAAAgAgAAAAAAAAAAEAAABAAAAAQAIAAAAAAACAA=</HashCode>
+      <FileName>Classes\Service.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
